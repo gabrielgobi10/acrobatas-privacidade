@@ -1,144 +1,331 @@
-POLÍTICA DE PRIVACIDADE — Acrobatas Workforce
-
-Última atualização: Janeiro de 2025
-
-O Acrobatas Workforce (“Aplicação”, “App”) é uma plataforma desenvolvida para conectar profissionais, empresas e equipas de obra, oferecendo gestão de obras, presenças, documentos, pagamentos, candidaturas e comunicação.
-Esta Política explica como tratamos dados pessoais e como garantimos a segurança e proteção das informações.
-
-1. Informações que recolhemos
-
-Recolhemos apenas os dados necessários para o funcionamento da plataforma:
-
-1.1 Informações fornecidas pelo utilizador
-
-Nome completo
-
-Email
-
-Número de telefone
-
-Documento de identificação (opcional)
-
-Dados de perfil profissional
-
-Conteúdos enviados (fotos, relatórios, documentos)
-
-1.2 Dados do dispositivo
-
-Modelo do dispositivo
-
-Sistema operativo
-
-Versão da aplicação
-
-1.3 Localização
-
-Utilizamos localização GPS apenas para:
-
-Registar presenças em obras
-
-Garantir que o profissional está no local correto
-
-A localização não é partilhada com terceiros.
-
-1.4 Dados de uso
-
-Logs de acesso
-
-Interações dentro da aplicação
-
-Erros e eventos técnicos
-
-2. Como utilizamos os dados
-
-Os dados pessoais são usados exclusivamente para:
-
-Criar e gerir contas
-
-Correspondência com empresas e equipas
-
-Gestão de obras e presenças
-
-Processos de pagamento e recibos
-
-Validação documental
-
-Segurança e prevenção de fraudes
-
-Melhorar funcionalidades da aplicação
-
-3. Partilha de dados
-
-Nós NÃO vendemos, alugamos ou partilhamos dados pessoais com terceiros.
-
-Os dados podem ser partilhados apenas com:
-
-Empresas contratantes que o utilizador se candidata ou trabalha
-
-Serviços essenciais de infraestrutura (ex.: alojamento, base de dados)
-
-Todos seguem medidas de segurança rigorosas.
-
-4. Segurança
-
-Utilizamos:
-
-Encriptação de dados
-
-Comunicação segura (HTTPS)
-
-Acesso restrito
-
-Backups encriptados
-
-Embora existam riscos inerentes a qualquer sistema digital, aplicamos práticas robustas para minimizar vulnerabilidades.
-
-5. Direitos do utilizador
-
-O utilizador pode, a qualquer momento:
-
-Aceder aos seus dados
-
-Corrigir informações
-
-Eliminar conta
-
-Solicitar eliminação completa dos dados
-
-Revogar permissões (localização, câmera, etc.)
-
-Pedidos podem ser feitos para:
-suporte@acrobatas.com
-
-6. Retenção de dados
-
-Os dados são armazenados enquanto:
-
-O utilizador mantiver conta ativa
-
-Houver obrigações legais (ex.: dados fiscais por 5 anos)
-
-7. Permissões utilizadas
-
-Localização: presenças e georreferenciação
-
-Câmera: envio de fotos e documentos
-
-Armazenamento: upload de ficheiros
-
-Notificações: alertas importantes de obra, documentos e pagamentos
-
-Nenhuma permissão é usada sem autorização do utilizador.
-
-8. Alterações a esta Política
-
-Podemos atualizar esta política periodicamente.
-A versão atualizada será publicada nesta página.
-
-9. Contacto
-
-Para dúvidas ou pedidos relacionados à privacidade:
-
-📧 suporte@acrobatas.com
-
-🌐 https://acrobatas.com
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Política de Privacidade – Acrobatas Workforce</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Helvetica, Arial, sans-serif;
+        background-color: #f5f7fb;
+        color: #111827;
+        line-height: 1.6;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 32px 16px;
+      }
+
+      .card {
+        background: #ffffff;
+        max-width: 900px;
+        width: 100%;
+        border-radius: 16px;
+        box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+        padding: 32px 24px;
+      }
+
+      @media (min-width: 768px) {
+        .card {
+          padding: 40px 40px 48px;
+        }
+      }
+
+      h1 {
+        font-size: 1.9rem;
+        text-align: center;
+        margin-bottom: 8px;
+        color: #111827;
+      }
+
+      .subtitle {
+        text-align: center;
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin-bottom: 24px;
+      }
+
+      .tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        font-size: 0.8rem;
+        padding: 4px 10px;
+        border-radius: 999px;
+        margin: 0 auto 24px;
+      }
+
+      .section {
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+        margin-bottom: 8px;
+        margin-top: 12px;
+        color: #111827;
+      }
+
+      h3 {
+        font-size: 1rem;
+        margin-bottom: 4px;
+        margin-top: 8px;
+        color: #111827;
+      }
+
+      p {
+        font-size: 0.94rem;
+        margin-bottom: 8px;
+        color: #374151;
+      }
+
+      ul {
+        margin-left: 18px;
+        margin-bottom: 8px;
+      }
+
+      ul li {
+        font-size: 0.94rem;
+        margin-bottom: 4px;
+        color: #374151;
+      }
+
+      a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        font-size: 0.85rem;
+        color: #6b7280;
+        margin-top: 24px;
+        border-top: 1px solid #e5e7eb;
+        padding-top: 12px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <main class="card" aria-label="Política de Privacidade Acrobatas Workforce">
+        <h1>Política de Privacidade</h1>
+
+        <p class="subtitle">Acrobatas Workforce</p>
+
+        <div class="tag">
+          <span>Última atualização:</span>
+          <strong>Janeiro de 2025</strong>
+        </div>
+
+        <div class="section">
+          <p>
+            O Acrobatas Workforce (“Aplicação”, “App”) é uma plataforma desenvolvida
+            para conectar profissionais, empresas e equipas de obra, oferecendo
+            gestão de obras, presenças, documentos, pagamentos, candidaturas e
+            comunicação.
+          </p>
+          <p>
+            Esta Política explica como tratamos os dados pessoais e como
+            garantimos a segurança e proteção das informações.
+          </p>
+        </div>
+
+        <!-- 1. INFORMAÇÕES QUE RECOLHEMOS -->
+        <div class="section">
+          <h2>1. Informações que recolhemos</h2>
+          <p>Recolhemos apenas os dados necessários para o funcionamento da plataforma.</p>
+
+          <h3>1.1 Informações fornecidas pelo utilizador</h3>
+          <ul>
+            <li>Nome completo</li>
+            <li>Email</li>
+            <li>Número de telefone</li>
+            <li>Documento de identificação (opcional, quando aplicável)</li>
+            <li>Dados de perfil profissional (função, experiência, competências, cidade base, etc.)</li>
+            <li>Conteúdos enviados (fotos, relatórios, documentos, mensagens)</li>
+          </ul>
+
+          <h3>1.2 Dados do dispositivo</h3>
+          <ul>
+            <li>Modelo do dispositivo</li>
+            <li>Sistema operativo</li>
+            <li>Versão da aplicação</li>
+          </ul>
+
+          <h3>1.3 Localização</h3>
+          <p>
+            Utilizamos localização (GPS) apenas para:
+          </p>
+          <ul>
+            <li>Registar presenças em obra</li>
+            <li>Garantir que o profissional está no local correto</li>
+          </ul>
+          <p>A localização não é partilhada com terceiros para fins de marketing.</p>
+
+          <h3>1.4 Dados de uso</h3>
+          <ul>
+            <li>Logs de acesso</li>
+            <li>Interações dentro da aplicação</li>
+            <li>Erros e eventos técnicos</li>
+          </ul>
+        </div>
+
+        <!-- 2. COMO UTILIZAMOS OS DADOS -->
+        <div class="section">
+          <h2>2. Como utilizamos os dados</h2>
+          <p>Os dados pessoais são utilizados exclusivamente para:</p>
+          <ul>
+            <li>Criar e gerir contas de utilizador</li>
+            <li>Correspondência com empresas e equipas</li>
+            <li>Gestão de obras e presenças</li>
+            <li>Processos de pagamento e recibos</li>
+            <li>Validação de documentos e requisitos legais</li>
+            <li>Segurança da plataforma e prevenção de fraudes</li>
+            <li>Melhoria de funcionalidades e experiência da App</li>
+          </ul>
+        </div>
+
+        <!-- 3. PARTILHA DE DADOS -->
+        <div class="section">
+          <h2>3. Partilha de dados</h2>
+          <p>Não vendemos, alugamos ou partilhamos dados pessoais com terceiros para fins comerciais.</p>
+          <p>Os dados podem ser partilhados apenas com:</p>
+          <ul>
+            <li>
+              <strong>Empresas contratantes</strong>, sempre que o utilizador se
+              candidata ou participa numa obra através da plataforma.
+            </li>
+            <li>
+              <strong>Serviços essenciais de infraestrutura</strong> (por exemplo:
+              alojamento, base de dados, envio de emails) estritamente necessários
+              ao funcionamento da plataforma.
+            </li>
+            <li>
+              <strong>Autoridades legais ou regulatórias</strong>, quando houver
+              obrigação legal ou ordem judicial.
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. SEGURANÇA -->
+        <div class="section">
+          <h2>4. Segurança</h2>
+          <p>Adotamos medidas de segurança razoáveis para proteger os dados pessoais, incluindo:</p>
+          <ul>
+            <li>Encriptação de dados em trânsito (HTTPS)</li>
+            <li>Acesso restrito apenas a pessoal autorizado</li>
+            <li>Registos de acesso e auditoria</li>
+            <li>Backups encriptados</li>
+          </ul>
+          <p>
+            Embora não seja possível garantir segurança absoluta em qualquer
+            ambiente digital, aplicamos práticas robustas para minimizar
+            vulnerabilidades.
+          </p>
+        </div>
+
+        <!-- 5. DIREITOS DO UTILIZADOR -->
+        <div class="section">
+          <h2>5. Direitos do utilizador</h2>
+          <p>O utilizador pode, a qualquer momento, exercer os seus direitos, incluindo:</p>
+          <ul>
+            <li>Aceder aos seus dados</li>
+            <li>Corrigir informações incorretas ou desatualizadas</li>
+            <li>Eliminar conta (quando legalmente possível)</li>
+            <li>Solicitar eliminação ou anonimização de certos dados</li>
+            <li>Revogar permissões (localização, câmara, ficheiros, notificações)</li>
+          </ul>
+          <p>
+            Os pedidos podem ser feitos através do email
+            <a href="mailto:suporte@acrobatas.com">suporte@acrobatas.com</a>.
+          </p>
+        </div>
+
+        <!-- 6. RETENÇÃO DE DADOS -->
+        <div class="section">
+          <h2>6. Retenção de dados</h2>
+          <p>
+            Os dados são armazenados enquanto a conta estiver ativa ou enquanto
+            necessário para cumprir obrigações legais.
+          </p>
+          <p>
+            Alguns registos (por exemplo, faturas e documentos fiscais) podem ser
+            mantidos por períodos específicos exigidos por lei.
+          </p>
+        </div>
+
+        <!-- 7. PERMISSÕES UTILIZADAS -->
+        <div class="section">
+          <h2>7. Permissões utilizadas na aplicação</h2>
+
+          <h3>Localização</h3>
+          <p>
+            Utilizada para registo de presenças em obra e validação do local de
+            trabalho, quando o profissional marca entrada ou saída.
+          </p>
+
+          <h3>Câmara / Ficheiros</h3>
+          <p>Utilizados para envio de fotos de obra, relatórios e documentos.</p>
+
+          <h3>Notificações</h3>
+          <p>
+            Utilizadas para alertas importantes de obras, documentos, presenças e
+            pagamentos.
+          </p>
+
+          <p>
+            Nenhuma permissão é usada sem autorização do utilizador, e todas podem
+            ser geridas nas definições do dispositivo.
+          </p>
+        </div>
+
+        <!-- 8. ALTERAÇÕES À POLÍTICA -->
+        <div class="section">
+          <h2>8. Alterações a esta Política de Privacidade</h2>
+          <p>
+            Podemos atualizar esta Política periodicamente. Sempre que houver
+            alterações relevantes, publicaremos a versão atualizada nesta página.
+          </p>
+        </div>
+
+        <!-- 9. CONTACTO -->
+        <div class="section">
+          <h2>9. Contacto</h2>
+          <p>
+            Para questões relacionadas com privacidade ou tratamento de dados
+            pessoais, pode contactar:
+          </p>
+          <ul>
+            <li>Email: <a href="mailto:suporte@acrobatas.com">suporte@acrobatas.com</a></li>
+            <li>Website: <a href="https://acrobatas.com" target="_blank" rel="noopener noreferrer">https://acrobatas.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer">
+          <p>Acrobatas Workforce &copy; 2025. Todos os direitos reservados.</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
